@@ -15,3 +15,8 @@ Array.prototype.bob = function <T>(x:T): number {
 Array.prototype.dod = function <T>(x:T): number {
   return this.unshift(x);
 };
+
+let testt = ["hi", 1, {}, []];
+
+console.log(testt.dod(2));
+console.log(testt);
