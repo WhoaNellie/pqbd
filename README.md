@@ -53,3 +53,10 @@ Probably not. It modifies the array prototype and may interfere with other packa
 ### Can I use pqbd with TypeScript?
 
 Yes you can! It was written in TS but again, don't actually use it. 
+
+## Coming soon
+
+* dop
+* qob
+* qop
+* dob
