@@ -1,7 +1,7 @@
 {
   "name": "pqbd",
   "version": "1.0.3",
-  "description": "A fresh coat of paint on push, shift, and unshift",
+  "description": "An array utility library",
   "main": "index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
