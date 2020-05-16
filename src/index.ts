@@ -4,7 +4,7 @@ interface Array<T> {
   dod(x:T): number;
 }
 
-Array.prototype.qoq = function <T>(): Array<T> {
+Array.prototype.qoq = function <T>(): T {
   return this.shift();
 };
 
@@ -16,7 +16,7 @@ Array.prototype.dod = function <T>(x:T): number {
   return this.unshift(x);
 };
 
-let testt = ["hi", 1, {}, []];
+let testt = [1, "hi", 1, {}, []];
 
-console.log(testt.dod(2));
+console.log(typeof testt.qoq());
 console.log(testt);
